@@ -1,5 +1,5 @@
 body {
-  font-family: "Lato";
+  font-family: Lato;
 }
 
 .header {
@@ -129,7 +129,7 @@ body {
   border-radius: 8px;
   background: rgba(39, 39, 39, 0.05);
   margin-left: 300px;
-  margin-bottom: 128px;
+  /* margin-bottom: 128px; */
   display: flex;
   flex-direction: row;
 }
@@ -170,7 +170,6 @@ body {
 
 .deals-info {
   padding: 100px;
-  margin-top: 100px;
   margin-left: 100px;
 }
 
@@ -198,4 +197,106 @@ body {
   width: 318px;
   height: 400px;
   margin-right: 500px;
+}
+
+.ig-title {
+  color: #272727;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 800;
+}
+
+.ig-summary {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 60px;
+  margin-left: 400px;
+  color: rgba(39, 39, 39, 0.6);
+}
+
+.ig-pic {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 100px;
+}
+
+.flower-one {
+  width: 230px;
+  height: 276px;
+  margin-left: 200px;
+  margin-right: 24px;
+}
+
+.flower-two {
+  width: 230px;
+  height: 276px;
+  margin-right: 24px;
+}
+.flower-three {
+  width: 230px;
+  height: 276px;
+  margin-right: 24px;
+}
+
+.flower-four {
+  width: 230px;
+  height: 276px;
+  margin-right: 24px;
+}
+
+.latest-deals {
+  width: 990px;
+  height: 274px;
+  border: 0px solid wheat;
+  margin-left: 200px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.latestdeals-pic {
+  width: 990px;
+  height: 274px;
+}
+
+.latest-title {
+  text-align: center;
+  color: #272727;
+  position: absolute;
+  width: 990px;
+  height: 120px;
+  margin-top: 10px;
+}
+
+.latest-deals p {
+  position: absolute;
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 12px;
+}
+
+.latest-deals input[type="email"] {
+  position: absolute;
+  width: 350px;
+  height: 34px;
+  margin-top: 100px;
+  margin-right: 100px;
+  border-radius: 8px;
+  border: 0;
+  background: #fff;
+}
+
+.latest-deals button {
+  position: absolute;
+  border-radius: 5px;
+  border: 0;
+  background: #e55473;
+  color: #fff;
+  margin-top: 100px;
+  margin-left: 400px;
+  width: 90px;
+  height: 34px;
 }
